@@ -12,9 +12,6 @@ html {
 body {
   margin: 0;
 }
-h1 {
-  color: red;
-}
 article,
 aside,
 details,
@@ -65,6 +62,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+  color: purple;
 }
 mark {
   color: #000;
