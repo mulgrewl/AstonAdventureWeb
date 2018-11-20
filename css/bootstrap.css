@@ -12,6 +12,9 @@ html {
 body {
   margin: 0;
 }
+h1 {
+  color: red;
+}
 article,
 aside,
 details,
