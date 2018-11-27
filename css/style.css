@@ -18,10 +18,9 @@ header p {
 }
 
 
-.navbar {
+section nav {
     display: flex;
-    justify-content: flex-center;
-    padding: 0 20 20 20px;
+    padding: 0 20px;
     margin-bottom: 0;
     list-style: none;
 }
