@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+.video {
+  text-align: center;
+  margin: auto;
+}
 
 header nav {
   display: flex;
