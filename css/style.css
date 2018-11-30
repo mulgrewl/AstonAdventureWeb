@@ -1,22 +1,26 @@
 
 h1 {
-  color:#F13C20;
+  color:red;
   font-family: 'Londrina Shadow', cursive;
   font-size: 75px;
   text-align: center;
 }
 
+.video {
+  text-align: center;
+  margin: auto;
+}
+
 
 header nav {
- display: flex;
- /*justify-content: flex-end; */
+  display: flex;
+  justify-content: flex-end;
 }
 
 header p {
   padding: 0 20px;
   margin: 0;
 }
-
 
 section nav {
     display: flex;
@@ -25,43 +29,7 @@ section nav {
     list-style: none;
 }
 
-.text-right{
-  justify-content: flex-end;
-}
-
 .nav-item {
     padding: 0 20px;
-   display: flex;
-}
-
-.Jumbotron {
-
-  margin: 15px;
-
-}
-.blogPost{
-
-  margin: 10px;
-  padding: 0px 5px;
-}
-
-.blogPost h2 {
-
-  background: #C5CBE3;
-   border-left: solid 3px  #4056A1;
-   padding-left: 10px;
-
-}
-.blogPost h5{
-  color: #4056A1;
-}
-
-.fixed-row-bottom {
-  margin:10px;
-  padding: 20px;
-
-}
-.instruction {
-
-  background: rgba(241, 62, 34, 0.33);
+    display: flex;
 }
