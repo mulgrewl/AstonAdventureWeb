@@ -12,6 +12,12 @@ h1 {
 }
 
 
+.video {
+  text-align: center;
+  margin: auto;
+}
+
+
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -31,5 +37,41 @@ section nav {
 
 .nav-item {
     padding: 0 20px;
+<<<<<<< HEAD
     display: flex;
+=======
+   display: flex;
+}
+
+.Jumbotron {
+
+  margin: 15px;
+
+}
+.blogPost{
+
+  margin: 10px;
+  padding: 0px 5px;
+}
+
+.blogPost h2 {
+
+  background: #C5CBE3;
+   border-left: solid 3px  #4056A1;
+   padding-left: 10px;
+
+}
+.blogPost h5{
+  color: #4056A1;
+}
+
+.fixed-row-bottom {
+  margin:10px;
+  padding: 20px;
+
+}
+.instruction {
+
+  background: rgba(241, 62, 34, 0.32);
+>>>>>>> 585d6edc2c0d7e40188b2b8c283ab50c31c30910
 }
