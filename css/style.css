@@ -6,7 +6,14 @@ h1 {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.video {
+  text-align: center;
+  margin: auto;
+}
 
+>>>>>>> ea986d5d686104a95c4dc047aaca1973e03ae5b9
 header nav {
  display: flex;
  /*justify-content: flex-end; */
@@ -16,7 +23,6 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
-
 
 section nav {
     display: flex;
