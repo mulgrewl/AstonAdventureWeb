@@ -61,6 +61,10 @@ section nav {
 
 }
 .instruction {
-
   background: rgba(241, 62, 34, 0.32);
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
 }
