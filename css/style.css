@@ -11,13 +11,6 @@ h1 {
   margin: auto;
 }
 
-
-.video {
-  text-align: center;
-  margin: auto;
-}
-
-
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -37,9 +30,6 @@ section nav {
 
 .nav-item {
     padding: 0 20px;
-<<<<<<< HEAD
-    display: flex;
-=======
    display: flex;
 }
 
@@ -73,5 +63,4 @@ section nav {
 .instruction {
 
   background: rgba(241, 62, 34, 0.32);
->>>>>>> 585d6edc2c0d7e40188b2b8c283ab50c31c30910
 }
