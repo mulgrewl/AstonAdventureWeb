@@ -41,6 +41,11 @@ section nav {
 
 }
 
+.article1 {
+      font-family: 'Lobster Two', cursive;
+      font-size: 20px;
+}
+
 .nav-item {
   padding: 0 20px;
   display: flex;
