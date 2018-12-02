@@ -12,6 +12,7 @@ h1 {
 
 p {
 font-family: 'Lobster Two', cursive;
+
 }
 
 .video {
@@ -41,8 +42,8 @@ section nav {
 }
 
 .nav-item {
-    padding: 0 20px;
-   display: flex;
+  padding: 0 20px;
+  display: flex;
 }
 
 .Jumbotron {
@@ -80,7 +81,7 @@ section .row img {
   margin: 0 0 30px;
   width: 100%;
 }
-#footer {
+#Footer {
   margin-top: 20px;
-    padding: 10px 0px 5px 0px;
+  padding: 10px 0px 5px 0px;
 }
