@@ -1,9 +1,17 @@
 
+body {
+  background-color: white;
+}
+
 h1 {
-  color:red;
-  font-family: 'Londrina Shadow', cursive;
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
   font-size: 75px;
   text-align: center;
+}
+
+p {
+font-family: 'Lobster Two', cursive;
 }
 
 .video {
@@ -22,10 +30,14 @@ header p {
 }
 
 section nav {
-    display: flex;
+    display: block;
     padding: 0 20px;
     margin-bottom: 0;
     list-style: none;
+    background-color: #c5cbe3;
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+
 }
 
 .nav-item {
@@ -67,4 +79,8 @@ section nav {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+#footer {
+  margin-top: 20px;
+    padding: 10px 0px 5px 0px;
 }
