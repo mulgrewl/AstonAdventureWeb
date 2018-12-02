@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+h4 {
+  font-family: 'Lobster Two', cursive;
+}
+
 p {
 font-family: 'Lobster Two', cursive;
 
@@ -80,6 +84,8 @@ section nav {
 }
 .instruction {
   background: rgba(241, 62, 34, 0.32);
+  font-size: 18;
+
 }
 
 section .row img {
