@@ -85,3 +85,12 @@ section .row img {
   margin-top: 20px;
   padding: 10px 0px 5px 0px;
 }
+
+.card-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container{
+    margin: 20px;
+}
