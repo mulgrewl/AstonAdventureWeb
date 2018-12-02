@@ -1,9 +1,18 @@
 
+body {
+  background-color: white;
+}
+
 h1 {
-  color:red;
-  font-family: 'Londrina Shadow', cursive;
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
   font-size: 75px;
   text-align: center;
+}
+
+p {
+font-family: 'Lobster Two', cursive;
+
 }
 
 .video {
@@ -21,15 +30,72 @@ header p {
   margin: 0;
 }
 
-
 section nav {
-    display: flex;
+    display: block;
     padding: 0 20px;
     margin-bottom: 0;
     list-style: none;
+    background-color: #c5cbe3;
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+
+}
+
+.article1 {
+      font-family: 'Lobster Two', cursive;
+      font-size: 20px;
 }
 
 .nav-item {
-    padding: 0 20px;
-    display: flex;
+  padding: 0 20px;
+  display: flex;
+}
+
+.Jumbotron {
+
+  margin: 15px;
+
+}
+.blogPost{
+
+  margin: 10px;
+  padding: 0px 5px;
+}
+
+.blogPost h2 {
+
+  background: #C5CBE3;
+   border-left: solid 3px  #4056A1;
+   padding-left: 10px;
+
+}
+.blogPost h5{
+  color: #4056A1;
+}
+
+.fixed-row-bottom {
+  margin:10px;
+  padding: 20px;
+
+}
+.instruction {
+  background: rgba(241, 62, 34, 0.32);
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+#Footer {
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;
+}
+
+.card-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container{
+    margin: 20px;
 }
