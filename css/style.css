@@ -116,12 +116,24 @@ button {
   font-size: 24px;
 }
 
-#Social-Media {
+ul.social-media {
   font-family: 'Lobster Two', cursive;
   list-style: none;
   display: block;
-  padding: 0 20px;
+padding-top:5px;
   margin-bottom: 0;
+  width: 25px;
+  display:inline;
+
+}
+ul.social-media li{
+display:inline;
+  padding: 0 15px;
+
+}
+ul.social-media img{
+  width:30px;
+
 
 }
 
