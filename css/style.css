@@ -24,6 +24,10 @@ font-size:16px;
   margin: auto;
 }
 
+.video h2{
+  font-family: 'Lobster', cursive;
+}
+
 header nav {
   display: flex;
   justify-content: flex-end;
