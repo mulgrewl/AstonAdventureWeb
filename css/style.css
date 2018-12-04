@@ -24,6 +24,10 @@ p {
   margin: auto;
 }
 
+.video h2{
+  font-family: 'Lobster', cursive;
+}
+
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -146,6 +150,14 @@ ul.social-media img{
 
 }
 
+.aboutText{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.blogPost h2{
+  font-family: 'Lobster', cursive;
+}
 /* {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;} */
 /* .mySlides {display: none;}
