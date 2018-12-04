@@ -125,6 +125,11 @@ button {
 
 }
 
+.normalText {
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
 /* {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;} */
 /* .mySlides {display: none;}
