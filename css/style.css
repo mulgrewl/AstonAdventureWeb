@@ -96,6 +96,7 @@ section .row img {
 #Footer {
   margin-top: 20px;
   padding: 10px 0px 5px 0px;
+  font-family: 'Lobster Two', cursive;
 }
 
 .carousel-inner img {
@@ -106,6 +107,14 @@ section .row img {
 .carousel-caption {
   background-color: #white ! important;
   margin-bottom: 100px !important;
+}
+
+button {
+  border-radius: 4px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 100%;
+  background-color: #f44336;
+  font-size: 24px;
 }
 
 /* {box-sizing: border-box;}
