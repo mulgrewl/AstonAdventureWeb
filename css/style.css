@@ -83,7 +83,6 @@ section nav {
 
 }
 .instruction {
-  background: rgba(241, 62, 34, 0.32);
   font-size: 18;
 
 }
@@ -115,6 +114,15 @@ button {
   width: 100%;
   background-color: #f44336;
   font-size: 24px;
+}
+
+#Social-Media {
+  font-family: 'Lobster Two', cursive;
+  list-style: none;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 0;
+
 }
 
 /* {box-sizing: border-box;}
