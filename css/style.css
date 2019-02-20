@@ -161,5 +161,9 @@
 .navbar #navbar-default {
   font-family: 'Lobster', cursive;
   background-color: #c5cbe3;
-  
+
+}
+
+.footer {
+    margin: 0px !important ;
 }
