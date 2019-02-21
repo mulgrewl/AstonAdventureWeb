@@ -4,11 +4,13 @@
 
 nav {
     font-family: 'Lobster Two', cursive;
+    font-size: 24px;
 
 }
 
 .navbar-brand {
   color: #f13c20 !important;
+  font-size: 30px !important;
 }
 
 p {
@@ -33,4 +35,11 @@ h1 {
 
 .lead {
   font-family: serif;
+  font-size: 10px;
+}
+
+#blogHeader {
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
 }
