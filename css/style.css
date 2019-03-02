@@ -5,27 +5,30 @@
 
   h1 {
     color: #f13c20;
-    font-family: 'Lobster', cursive;
+    font-family: 'Press Start 2P', cursive;
     font-size: 75px;
     text-align: center;
   }
 
   h4 {
-    font-family: 'Lobster Two', cursive;
+  font-family: 'Press Start 2P', cursive;
   }
 
   p {
     font-size:16px;
+    font-family: 'Noto Sans TC', cursive;
 
   }
 
   .video {
     text-align: center;
     margin: auto;
+    max-width: 100%;
   }
 
   .video h2{
-    font-family: 'Lobster', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
   }
 
   header nav {
@@ -44,13 +47,13 @@
     margin-bottom: 0;
     list-style: none;
     background-color: #c5cbe3;
-    font-family: 'Lobster Two', cursive;
-    font-size: 35px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
 
   }
 
   .article1 {
-    font-family: 'Lobster Two', cursive;
+  font-family: 'Press Start 2P', cursive;
     font-size: 20px;
   }
 
@@ -75,6 +78,7 @@
     background: #C5CBE3;
     border-left: solid 3px  #4056A1;
     padding-left: 10px;
+      font-family: 'Press Start 2P', cursive;
 
   }
   .blogPost h5{
@@ -94,44 +98,63 @@
   section .row img {
     margin: 0 0 30px;
     width: 100%;
+    max-width: 100px;
   }
 
   #Footer {
     margin-top: 20px;
     padding: 10px 0px 5px 0px;
-    font-family: 'Lobster Two', cursive;
-  }
+    font-family: 'Press Start 2P', cursive;  }
 
   .carousel-inner img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     margin: 0px !important ;
   }
   .carousel-caption {
-    background-color: #white ! important;
+  background-color: rgba(0,0,0,.3) ! important;
     margin-bottom: 100px !important;
   }
 
   button {
     border-radius: 4px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    width: 100%;
+    width: 20%;
     background-color: #4056a1;
     font-size: 24px;
+    margin-left: auto ! important;
+    margin-right:auto ! important;
+    padding-right: 15px;
+    padding-right:15px;
   }
 
   button a {
     color: white;
   }
 
-  ul.social-media {
-    font-family: 'Lobster Two', cursive;
+  .contact {
+  font-family: 'Press Start 2P', cursive;
     list-style: none;
     display: block;
-    padding-top:5px;
+
     margin-bottom: 0;
-    width: 25px;
+    max-width: 370px;
+    min-width: 200px;
     display:inline;
+    background-color: #D3E9FF;
+    padding: 20px;
+
+
+  }
+  ul.social-media{
+    font-family: 'Press Start 2P', cursive;
+      list-style: none;
+      display: block;
+
+      margin-bottom: 0;
+      width: 25px;
+      display:inline;
+      background-color: #D3E9FF;
 
   }
   ul.social-media li{
@@ -147,6 +170,7 @@
 
   .normalText {
     font-family: 'Noto Sans TC', sans-serif;
+    padding: 20px;
 
   }
 
@@ -155,18 +179,82 @@
     padding-bottom: 10px;
   }
 
-  .blogPost h2{
-    font-family: 'Lobster', cursive;
-  }
 .navbar #navbar-default {
-  font-family: 'Lobster', cursive;
-  background-color: #c5cbe3;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #337ab7 ! important;
 
-<<<<<<< HEAD
-=======
 }
 
 .footer {
     margin: 0px !important ;
->>>>>>> d8db2d7a485800b91f54b05335343c9eed389212
+}
+
+.carousel-caption d-none d-md-block h1 {
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgba(0,0,0,.3) ! important
+}
+
+
+nav {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2em;
+
+}
+.navbar-default .navbar-nav>li>a{
+color: #555 ! important;
+
+}
+.navbar-brand {
+
+  color: #f13c20 !important;
+  font-size: 1.3em !important;
+}
+
+
+
+h1 {
+  color: #f13c20;
+    font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.carousel-feature {
+  color: #f13c20;
+      font-family: 'Press Start 2P', cursive;
+}
+
+.featurette-heading {
+  color: #f13c20;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.lead {
+  font-family: serif;
+  font-size: 1em;
+}
+
+#blogHeader {
+  color: #f13c20;
+    font-family: 'Press Start 2P', cursive;
+  font-size: 3em;
+}
+
+ .navbar-default .navbar-nav>.active>a{
+  background: #D3E9FF! important;
+  color:#555 ! important;
+}
+.container-fluid{
+  background-color:#337ab7 ! important;
+}
+.button{
+  max-width: 200px ! important;
+}
+.step1{
+padding: 20px;
+}
+.step2{
+  padding: 20px;
+}
+.step3{
+  padding:20px;
 }
