@@ -1,0 +1,45 @@
+.carousel-caption d-none d-md-block h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+nav {
+    font-family: 'Lobster Two', cursive;
+    font-size: 24px;
+
+}
+
+.navbar-brand {
+  color: #f13c20 !important;
+  font-size: 30px !important;
+}
+
+p {
+  font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+.carousel-feature {
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
+}
+
+.featurette-heading {
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
+}
+
+.lead {
+  font-family: serif;
+  font-size: 10px;
+}
+
+#blogHeader {
+  color: #f13c20;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
