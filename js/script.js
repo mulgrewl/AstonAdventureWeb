@@ -1,26 +1,49 @@
-$(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel();
+// $(document).ready(function(){
+//     // Activate Carousel
+//     $("carousel").carousel();
+//
+//     // Enable Carousel Indicators
+//     $(".item1").click(function(){
+//         $("carousel").carousel(0);
+//     });
+//     $(".item2").click(function(){
+//         $("carousel").carousel(1);
+//     });
+//     $(".item3").click(function(){
+//         $("carousel").carousel(2);
+//     });
+//     $(".item4").click(function(){
+//         $("carousel").carousel(3);
+//     });
+//
+//     // Enable Carousel Controls
+//     $(".left").click(function(){
+//         $("carousel").carousel("prev");
+//     });
+//     $(".right").click(function(){
+//         $("carousel").carousel("next");
+//     });
+// });
 
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
-    });
-    $(".item4").click(function(){
-        $("#myCarousel").carousel(3);
-    });
-
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
+$('.carousel-control').click(function(e){
+    e.stopPropagation();
+    var goTo = $(this).data('slide');
+    if(goTo=="prev") {
+        $('#carouselExampleControls').carousel('prev');
+    } else {
+        $('#carouselExampleControls').carousel('next');
+    }
 });
+
+$('.carousel-indicators li').click(function(e){
+        e.stopPropagation();
+        var goTo = $(this).data('slide-to');
+        $('.carousel-inner .item').each(function(index){
+            if($(this).data('id') == goTo){
+                goTo = index;
+                return false;
+            }
+        });
+
+        $('#carouselExampleControls').carousel(goTo);
+    });
