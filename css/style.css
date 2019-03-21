@@ -222,6 +222,8 @@ h1 {
 .carousel-feature {
   color: #f13c20;
       font-family: 'Press Start 2P', cursive;
+      width: 100%;
+      padding: 0 5%;
 }
 
 .featurette-heading {
@@ -259,7 +261,12 @@ padding: 20px;
 .step3{
   padding:20px;
 }
-
+.step4{
+  padding:20px;
+}
+.step5{
+  padding:20px;
+}
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
   height:350px ! important;
 }
